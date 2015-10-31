@@ -1,0 +1,7 @@
+def list_printer(to_print):
+  start=0
+  finish=len(to_print)
+  while start != finish:
+    index = to_print[start]
+    print(index)
+    start=start+1
